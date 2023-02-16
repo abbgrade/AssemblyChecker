@@ -8,7 +8,7 @@ schema: 2.0.0
 # Find-Assembly
 
 ## SYNOPSIS
-{{ Fill in the Synopsis }}
+Finds conflicting assemblies
 
 ## SYNTAX
 
@@ -17,7 +17,9 @@ Find-Assembly [-ModulePath] <DirectoryInfo> [<CommonParameters>]
 ```
 
 ## DESCRIPTION
-{{ Fill in the Description }}
+PowerShell does not resolve version conflicts between assemblies loaded from different modules.
+The solution is to load the assemblies in a specific order.
+This command compares the DLLs of a module directory with the loaded assemblies and returns possible conflicts.
 
 ## EXAMPLES
 
@@ -31,7 +33,7 @@ PS C:\> {{ Add example code here }}
 ## PARAMETERS
 
 ### -ModulePath
-{{ Fill ModulePath Description }}
+Path to the module, that contains the DLLs to load.
 
 ```yaml
 Type: DirectoryInfo
@@ -39,7 +41,7 @@ Parameter Sets: (All)
 Aliases:
 
 Required: True
-Position: 0
+Position: 1
 Default value: None
 Accept pipeline input: False
 Accept wildcard characters: False
@@ -50,11 +52,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## INPUTS
 
-### None
-
 ## OUTPUTS
 
-### System.Object
 ## NOTES
 
 ## RELATED LINKS
