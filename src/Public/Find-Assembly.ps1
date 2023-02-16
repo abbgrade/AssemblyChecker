@@ -1,6 +1,18 @@
 function Find-Assembly {
+
+    <#
+
+    .SYNOPSIS
+    Finds conflicting assemblies
+
+    .DESCRIPTION
+    PowerShell does not resolve version conflicts between assemblies loaded from different modules. The solution is to load the assemblies in a specific order. This command compares the DLLs of a module directory with the loaded assemblies and returns possible conflicts.
+    
+    #>
+
     [CmdletBinding()]
     param (
+        # Path to the module, that contains the DLLs to load.
         [Parameter( Mandatory )]
         [ValidateScript({ $_.Exists })]
         [System.IO.DirectoryInfo] $ModulePath
