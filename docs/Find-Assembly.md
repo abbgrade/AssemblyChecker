@@ -1,7 +1,7 @@
 ---
 external help file: AssemblyChecker-help.xml
 Module Name: AssemblyChecker
-online version:
+online version: https://abbgrade.github.io/AssemblyChecker/docs/Find-Assembly.html
 schema: 2.0.0
 ---
 
