@@ -1,10 +1,10 @@
-# AssemblyChecker
+# [AssemblyChecker](https://abbgrade.github.io/AssemblyChecker/)
 
 Helps you to analyze assembly dependency conflicts.
 
 ## Usage
 
-See [the documentation](./Docs) for description and examples.
+See [the documentation](./docs/) for description and examples.
 
 ## Changelog
 
