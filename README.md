@@ -1,10 +1,12 @@
-# [AssemblyChecker](https://abbgrade.github.io/AssemblyChecker/)
+# Readme
 
-Helps you to analyze assembly dependency conflicts.
+AssemblyChecker helps you to analyze assembly dependency conflicts between PowerShell modules by scanning your module directory and comparing the DLL files with already loaded assemblies.
+
+For details, visit the [GitHub Pages](https://abbgrade.github.io/AssemblyChecker/).
 
 ## Usage
 
-See [the documentation](./docs/) for description and examples.
+See [the command reference](./docs/) for descriptions and examples.
 
 ## Changelog
 
