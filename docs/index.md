@@ -1,4 +1,4 @@
-# Index
+# Commands
 
 <ul>
 {% for page in site.pages %}

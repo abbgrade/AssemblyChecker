@@ -1,5 +1,10 @@
 # AssemblyChecker
- Helps you to analyze assembly dependency conflicts
+
+Helps you to analyze assembly dependency conflicts.
+
+## [Manual](./docs/)
+
+## [Changelog](./CHANGELOG.md)
 
 ## Installation
 
