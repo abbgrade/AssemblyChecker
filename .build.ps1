@@ -2,14 +2,17 @@
 param(
 	[string] $NuGetApiKey = $env:nuget_apikey,
 
-	# Overwrite published versions
+	# Overwrite published versions.
 	[switch] $ForcePublish,
 
     # Add doc templates for new command.
 	[switch] $ForceDocInit,
 
-	# Version suffix to prereleases
-	[int] $BuildNumber
+	# Version suffix to prereleases.
+	[int] $BuildNumber,
+
+    # Use specific branch from PsBuildTasks.
+    [string] $PsBuildTaskBranch
 )
 
 $ModuleName = 'AssemblyChecker'
